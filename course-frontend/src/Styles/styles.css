@@ -1,0 +1,79 @@
+/* styles.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #e0f2fe, #ede9fe);
+}
+
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  margin: 0 auto;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.section {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.subsection-button {
+  background: none;
+  color: #2563eb;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.subsection-button:disabled {
+  color: grey;
+  cursor: not-allowed;
+}
